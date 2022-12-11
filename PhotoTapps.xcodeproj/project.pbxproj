@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		7EE58F9A29464DC8002F272F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE58F9929464DC8002F272F /* AppDelegate.swift */; };
 		7EE58F9C29464DC8002F272F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE58F9B29464DC8002F272F /* SceneDelegate.swift */; };
-		7EE58F9E29464DC8002F272F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE58F9D29464DC8002F272F /* ViewController.swift */; };
 		7EE58FA129464DC8002F272F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE58F9F29464DC8002F272F /* Main.storyboard */; };
 		7EE58FA329464DCA002F272F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EE58FA229464DCA002F272F /* Assets.xcassets */; };
 		7EE58FA629464DCA002F272F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EE58FA429464DCA002F272F /* LaunchScreen.storyboard */; };
+		7EE58FAE29464ED9002F272F /* PhotosCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE58FAD29464ED9002F272F /* PhotosCollectionViewController.swift */; };
+		7EE58FB029465220002F272F /* PhotoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EE58FAF29465220002F272F /* PhotoCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7EE58F9629464DC8002F272F /* PhotoTapps.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PhotoTapps.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EE58F9929464DC8002F272F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7EE58F9B29464DC8002F272F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7EE58F9D29464DC8002F272F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EE58FA029464DC8002F272F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		7EE58FA229464DCA002F272F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EE58FA529464DCA002F272F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EE58FA729464DCA002F272F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EE58FAD29464ED9002F272F /* PhotosCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosCollectionViewController.swift; sourceTree = "<group>"; };
+		7EE58FAF29465220002F272F /* PhotoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				7EE58F9929464DC8002F272F /* AppDelegate.swift */,
 				7EE58F9B29464DC8002F272F /* SceneDelegate.swift */,
-				7EE58F9D29464DC8002F272F /* ViewController.swift */,
+				7EE58FAD29464ED9002F272F /* PhotosCollectionViewController.swift */,
+				7EE58FAF29465220002F272F /* PhotoCell.swift */,
 				7EE58F9F29464DC8002F272F /* Main.storyboard */,
 				7EE58FA229464DCA002F272F /* Assets.xcassets */,
 				7EE58FA429464DCA002F272F /* LaunchScreen.storyboard */,
@@ -138,9 +141,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7EE58F9E29464DC8002F272F /* ViewController.swift in Sources */,
+				7EE58FB029465220002F272F /* PhotoCell.swift in Sources */,
 				7EE58F9A29464DC8002F272F /* AppDelegate.swift in Sources */,
 				7EE58F9C29464DC8002F272F /* SceneDelegate.swift in Sources */,
+				7EE58FAE29464ED9002F272F /* PhotosCollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
